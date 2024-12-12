@@ -32,10 +32,6 @@ h2 {
     padding-bottom: 5px;
 }
 
-ul {
-    list-style-type: none;
-    margin-bottom: 30px;
-}
 
 #birthday {
     font-size: 30px;
@@ -45,9 +41,5 @@ ul {
 p {
     margin-bottom: 50px;
     font-size: 20px;
-}
-
-ul > li {
-    font-size: 25px;
 }
 
