@@ -7,7 +7,7 @@
     <title>Final Project</title>
 
     <link rel="stylesheet" href="NavBar.css">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Gallery.css">
 
 </head>
 
@@ -25,6 +25,63 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="gallery-section">
+            <h1>Party Photos</h1>
+            <p>Check out some example photos from the party. More pictures will be uploaded after the event!</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Party Photo 1">
+                    <div class="photo-number">1</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Party Photo 2">
+                    <div class="photo-number">2</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200?text=Photo+3" alt="Party Photo 3">
+                    <div class="photo-number">3</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200?text=Photo+4" alt="Party Photo 4">
+                    <div class="photo-number">4</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200?text=Photo+5" alt="Party Photo 5">
+                    <div class="photo-number">5</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200?text=Photo+6" alt="Party Photo 6">
+                    <div class="photo-number">6</div>
+                </div>
+            </div>
+
+            <h2>Request Specific Photos</h2>
+            <p>If you'd like to receive any of the specific photos, please fill out the form below.</p>
+            
+
+            <form action="#" method="POST" class="gallery-form">
+                <label for="picture-number">Enter picture number:</label>
+                <input type="number" id="picture-number" name="picture-number" min="1" required>
+                
+                <label for="fun-rating">How much fun did you have? (1 - 5):</label>
+                <input type="number" id="fun-rating" name="fun-rating" min="1" max="5" required>
+
+                <label for="contact-method">Choose a contact method to receive pictures:</label>
+                <select id="contact-method" name="contact-method" required>
+                    <option value="phone">Phone Number</option>
+                    <option value="email">Email Address</option>
+                </select>
+
+                <label for="contact-info-input">Enter your phone number or email:</label>
+                <input type="text" id="contact-info-input" name="contact-info" required placeholder="Enter phone number or email">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 
 
 </body>
