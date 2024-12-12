@@ -15,7 +15,7 @@ nav ul {
 
 ul li {
     padding: 2%;
-    margin: auto;
+    margin: 0;
     text-decoration: none;
 }
 
@@ -27,5 +27,5 @@ a {
 a:hover {
     color: #fa310d;
     text-shadow: 7px 5px 10px rgba(0, 0, 0, 0.5);
-    /* -webkit-text-stroke: 1px black; */
+    -webkit-text-stroke: 0.7px black;
 }
