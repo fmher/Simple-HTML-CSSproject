@@ -1,9 +1,10 @@
-/* General Styles */
-* {
+/* background color for all pages except home html */
+body {
     background-color: #D2B48C; 
     font-family: 'Arial', sans-serif;
 }
 
+/* for event html */
 h1 {
     margin: 30px 0;
     font-size: 4em;
