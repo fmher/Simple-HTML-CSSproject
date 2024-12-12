@@ -38,3 +38,9 @@ a:hover {
     -webkit-text-stroke: 0.7px black;
 }
 
+img#cake {
+    height: 80px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+

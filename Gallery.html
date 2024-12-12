@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project</title>
+    <title>Gallery Page</title>
 
     <link rel="stylesheet" href="NavBar.css">
     <link rel="stylesheet" href="Gallery.css">
@@ -16,6 +16,7 @@
     <header>
         <nav>
             <ul>
+                <img src="pictures/cake.png" alt="cake" id="cake">
                 <li><a href="Home.html">You're Invited</a></li>
                 <li><a href="About.html">About The Party</a></li>
                 <li><a href="Event.html">Event</a></li>
@@ -64,10 +65,10 @@
 
             <form action="#" method="POST" class="gallery-form">
                 <label for="picture-number">Enter picture number:</label>
-                <input type="number" id="picture-number" name="picture-number" min="1" required>
+                <input type="number" id="picture-number" name="picture-number" min="1" placeholder="For multiple ex. 1, 2, 3, 9, 15" required>
                 
                 <label for="fun-rating">How much fun did you have? (1 - 5):</label>
-                <input type="number" id="fun-rating" name="fun-rating" min="1" max="5" required>
+                <input type="number" id="fun-rating" name="fun-rating" min="1" max="5" placeholder="It should be 5 " required>
 
                 <label for="contact-method">Choose a contact method to receive pictures:</label>
                 <select id="contact-method" name="contact-method" required>
